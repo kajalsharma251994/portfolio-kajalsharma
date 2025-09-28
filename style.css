@@ -54,7 +54,7 @@ body {
     border-bottom: 2px solid var(--border-color);
 }
 
-.sidebar-title h1 {
+.sidebar-title h2 {
     font-size: 1.8em;
     font-weight: 700;
     color: var(--accent-color);
