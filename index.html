@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kajal Sharma - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Kajal Sharma</h1>
-    <p>Aspiring Data Scientist/Data Analyst</p>
+    <p>Data Scientist/Data Analyst</p>
   </header>
 
   <section id="about">
@@ -17,32 +17,136 @@
     <p>Graduate student in Artificial Intelligence and Business Analytics with hands-on experience across data engineering, visualization, and machine learning. Proven ability to convert raw data into strategic solutions for organizations.</p>
   </section>
 
-  <section id="projects">
+<section id="education">
+    <h2>Education</h2>
+    <article class="degree">
+      <h3>Master of Science in Artificial Intelligence and Business Analytics</h3>
+      <p>
+        <strong>University of South Florida (USF)</strong> | Tampa, Florida, USA
+        <br>Expected Graduation: May 2026
+        <br>Relevant Coursework: Advanced Database Management Systems, Business Statistics, Machine learning, Artificial intelligence, Data Visualization, Big Data, Data Science Programming
+      </p>
+    </article>
+    <article class="degree">
+      <h3>Masters in Business Administration</h3>
+      <p>
+        <strong> Universal Business School</strong> | Mumbai, Maharashtra, India
+        <br>Graduation Date: July 2022
+      </p>
+    </article>
+    <article class="degree">
+      <h3>Bachelor of Science</h3>
+      <p>
+        <strong> B. D. Arya College</strong> | Jalandhar, Punjab, India
+        <br>Graduation Date: June 2019
+      </p>
+    </article>
+  </section>
+<section id="experience">
+    <h2>Work Experience</h2>
+
+    <article class="job">
+      <h3>Data Scientist / Data Analyst Intern</h3>
+      <p>
+        <strong>Cantaloupe Inc.</strong> | Atlanta, Georgia, USA
+        <br>May 2025 - July 2025
+      </p>
+      <ul>
+        <li>Drive real time loT detection framework project - data analysis, anomaly logic to stakeholder reporting using telemetry data.</li>
+        <li>Develop and streamline centralized reporting data to improve inconsistencies and performance metrics using SQL, Python.</li>
+        <li>Building centralized data dictionary with Tableau Meta data API & create Tableau/PowerBI dashboards for reporting efficiency.</li>
+        <li>Resolving ad-hoc JIRA tickets (worked on 20+) providing actionable data and visual dashboards, streamlining team workflows.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <h3>Data Analyst</h3>
+      <p>
+        <strong>Invesco Ltd.</strong> | Mumbai, Maharashtra, India
+        <br>March 2022 - July 2024
+      </p>
+      <ul>
+        <li>Automated marketing strategies of financial products using Python and Tableau, resulting in a 15% boost in conversion rates.</li>
+        <li>Established Jira-Confluence CRM dashboards tracking resolution time and checking daily customer satisfaction for 10+ teams.</li>
+        <li>Resolved 100+ tickets optimizing workflow in ServiceNow, enhancing stakeholder collaboration and data tracking proficiency.</li>
+        <li>Led ROI project using SQL to assess fundraising channels, boosting revenue by 18% and donor engagement by 10%.</li>
+        <li>Build customer segmentation model (100,000+ users) - K-Means clustering in Python, drove new 5000 email responses in Q1.</li>
+      </ul>
+    </article>
+        <article class="job">
+      <h3>Associate Business Analyst</h3>
+      <p>
+        <strong>Smile Foundation</strong> | Mumbai, Maharashtra, India
+        <br>April 2018 - March 2022
+      </p>
+      <ul>
+        <li>Automated end to end marketing performance analysis using Python and Tableau, resulting in 15% boost in conversion rates.</li>
+        <li>Utilized Jira and Confluence for project tracking, documentation, and collaboration, improving team productivity by 30%.</li>
+        <li>Partnered with analytics & product teams to reengineer workflows, resulting in ~10-15% improved customer acquisition.</li>
+        <li>Analyzed market data strategies using Power BI to identify trends, optimize asset flow, and forecast $IM in revenue growth.</li>
+        <li>Managed sprint planning/standups across teams using MS project, improving delivery efficiency & alignment on 25+ projects.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <h3>Associate Marketing Analyst</h3>
+      <p>
+        <strong>Aakaar Medical Technologies Pvt. Ltd.</strong> | Mumbai, Maharashtra, India
+        <br>January 2017 - April 2018
+      </p>
+      <ul>
+        <li>Architected end-to-end KPI reporting infrastructure using MySQL and Power BI, drive a 20% increase in data-driven decisions.</li>
+        <li>Pioneered real-time feedback loops and A/B testing to optimize recommendation accuracy, improved client response by 25%.</li>
+        <li>Assisted in tracking user interaction across apps using event data and SQL, helping product teams prioritize features.</li>
+        <li>Managed UAT and documented test cases on Confluence and product backlogs, ensuring a 25% faster product delivery.</li>
+      </ul>
+    </article>
+  </section>
+<section id="projects">
   <h2>Projects</h2>
 
   <article class="project">
-    <h3>Movie Recommendation System</h3>
-    <p>
-      Built a personalized recommendation system that suggests movies based on user preferences and past ratings. 
-      <br><strong>Technologies:</strong> Python, Flask, scikit-learn, Pandas
-      <br><strong>Role:</strong> Lead Developer 
-      <br><strong>Outcome:</strong> Improved recommendation accuracy by 18% compared to baseline.
-    </p>
+    <h3>Big Data - GutMeal Project - AI-Powered Personalized Nutrition</h3>
+       <div class="project-objective">
+    <h4>Objective</h4>
+    <p>The core objective is to create a functional and optimized machine learning solution that bridges the gap between individual biological data (gut microbiome) and actionable health interventions (personalized meal plans).</p>
+    
+    <h4>Specific Goals</h4>
+    <ul>
+      <li><strong>Develop a Predictive ML Model:</strong> Design and train a scalable machine learning model (using PySpark and Spark MLlib) that accurately predicts personalized meal plans.</li>
+      <li><strong>Integrate Diverse Data:</strong> Base these predictions on a comprehensive set of features, including gut microbiome profile, detailed dietary intake, demographic data (age, gender, BMI), and food allergy data.</li>
+      <li><strong>Optimize for Big Data:</strong> Ensure the model and system architecture are scalable and optimized for handling large datasets (implied by the use of PySpark and Spark MLlib).</li>
+      <li><strong>Ensure Clinical Relevance and Interpretability:</strong> Produce interpretable visualizations and clinically relevant outcomes that can aid in improving metabolic, digestive, and inflammatory conditions through personalized nutrition.</li>
+    </ul>
+    
+    <h4>Tools and Programming Language</h4>
+    <p>PySpark, Machine Learning models, Python, TensorFlow</p> 
+  </div>
+  <p>
+      <a href="https://github.com/kajalsharma251994/BigData_GutMealProject">GitHub Repository</a> 
+  </p>
   </article>
 
-  <article class="project">
-    <h3>State of the Region (SOR)</h3>
-    <p>
-      The project focuses on automating data workflows and building insights platforms around regional socio-economic indicators. This year, the scope includes automating data collection and cleaning, database design, website development, and interactive dashboard creation.  
-      <br><strong>Technologies:</strong> Tableau, Python
-      <br><strong>Role:</strong> Data Analyst
-      <br><strong>Outcome:</strong> Develop a comprehensive data framework that enables policymakers and community organizations to understand poverty distribution, assess intervention effectiveness, and make informed decisions about resource allocation.
-    </p>
-    <p>
-      <a href="https://github.com/kajalsharma251994/State-of-the-Region-SOR-project-Data-Analysis">GitHub Repo</a> | 
-      <a href="https://public.tableau.com/app/profile/kajal.sharma1804/viz/Data_Visualiztion4/FinalDashboard">Live Demo</a>
-    </p>
-    <img src="/Users/kajalsharma/Desktop/5107680.jpg" alt="Tampa Florida" width="400">
+    <article class="project">
+    <h3>Data Analytics Project - State of the Region (SOR) Project</h3>
+       <div class="project-objective">
+    <h4>Objective</h4>
+    <p>The project focuses on automating data workflows and building insights platforms around regional socio-economic indicators. This year, the scope includes automating data collection and cleaning, database design, website development, and interactive dashboard creation. Data sources include both traditional (e.g., Census) and real-time (e.g., Google Trends, Social Media) APIs.</p>
+    
+    <h4>Specific Goals</h4>
+    <ul>
+      <li><strong>Analytical Goal:</strong> To analyze and visualize poverty rate trends (2012-2023) using U.S. Census data to identify geographic patterns, temporal changes, and socioeconomic disparities across Florida counties.</li>
+      <li><strong>Technical Goal:</strong> To automate data workflows (collection and cleaning via APIs) and design an insights platform (database design, website development, and interactive dashboard creation) optimized for regional socio-economic indicators.</li>
+      <li><strong>Actionable Goal:</strong> To create an accessible knowledge base that enables policymakers and community organizations to understand poverty distribution, assess the effectiveness of interventions, and make informed decisions about targeted resource allocation and poverty reduction strategies.</li>
+    </ul>
+    
+    <h4>Tools and Programming Language</h4>
+    <p>Tableau, Python,REST APIs (Specifically the U.S. Census API)</p> 
+  </div>
+  <p>
+      <a href="https://github.com/kajalsharma251994/State-of-the-Region-SOR-project-Data-Analysis">GitHub Repository</a> 
+      <a href="https://public.tableau.com/app/profile/kajal.sharma1804/viz/Data_Visualiztion4/FinalDashboard">Tableau Report</a>
+</p>
   </article>
   </section>
 
